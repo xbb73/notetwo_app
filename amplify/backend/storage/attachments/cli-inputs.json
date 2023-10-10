@@ -1,0 +1,12 @@
+{
+  "resourceName": "attachments",
+  "policyUUID": "21a96f9b",
+  "bucketName": "notetwo1",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
