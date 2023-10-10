@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-notetwoapp-dev-114022-authRole",
+      "UnauthRoleArn": "arn:aws:iam::288915624547:role/amplify-notetwoapp-dev-114022-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::288915624547:role/amplify-notetwoapp-dev-114022-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-notetwoapp-dev-114022-deployment",
+      "UnauthRoleName": "amplify-notetwoapp-dev-114022-unauthRole",
+      "StackName": "amplify-notetwoapp-dev-114022",
+      "StackId": "arn:aws:cloudformation:us-east-1:288915624547:stack/amplify-notetwoapp-dev-114022/2986bbb0-66ba-11ee-8018-122dff0ad54d",
+      "AmplifyAppId": "d3oli9of68mzw8"
+    }
+  }
+}
