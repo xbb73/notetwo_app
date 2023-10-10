@@ -10,6 +10,11 @@
       "StackName": "amplify-notetwoapp-dev-114022",
       "StackId": "arn:aws:cloudformation:us-east-1:288915624547:stack/amplify-notetwoapp-dev-114022/2986bbb0-66ba-11ee-8018-122dff0ad54d",
       "AmplifyAppId": "d3oli9of68mzw8"
+    },
+    "categories": {
+      "auth": {
+        "notetwoappc26d9446": {}
+      }
     }
   }
 }
