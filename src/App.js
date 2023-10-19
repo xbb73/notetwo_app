@@ -18,7 +18,7 @@ import {
   withAuthenticator,
 } from '@aws-amplify/ui-react';
 
-const App = ({ signOut }) => {
+const App = ({ signOut, user }) => {
   const [notes, setNotes] = useState([]);
 
   useEffect(() => {
