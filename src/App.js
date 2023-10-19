@@ -103,6 +103,7 @@ const App = ({ signOut }) => {
         </Flex>
       </View>
       <Heading level={2}>Awesome HTML in ATCS</Heading>
+      <li>this is a cool thing</li>
       <p>This is my first paragraph, it has a link to <a href="https://headrick7.com">a fun website</a></p>
       <View margin="3rem 0">
       {notes.map((note) => (
@@ -112,7 +113,7 @@ const App = ({ signOut }) => {
     justifyContent="center"
     alignItems="center"
   >
-    <Text as="strong" fontWeight={700}>
+    <Text as="italic" fontWeight={800} color={'#fc3503'}>
       {note.name}
     </Text>
     <Text as="span">{note.description}</Text>
