@@ -102,7 +102,8 @@ const App = ({ signOut }) => {
           </Button>
         </Flex>
       </View>
-      <Heading level={2}>Current Notes</Heading>
+      <Heading level={2}>Awesome HTML in ATCS</Heading>
+      <p>This is my first paragraph, it has a link to <a href="https://headrick7.com">a fun website</a></p>
       <View margin="3rem 0">
       {notes.map((note) => (
   <Flex
@@ -119,7 +120,7 @@ const App = ({ signOut }) => {
       <Image
         src={note.image}
         alt={`visual aid for ${notes.name}`}
-        style={{ width: 400 }}
+        style={{ width: 100 }}
       />
     )}
     <Button variation="link" onClick={() => deleteNote(note)}>
